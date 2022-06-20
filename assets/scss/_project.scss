@@ -1,0 +1,64 @@
+#project{
+    margin-top: 150px;
+    .project{
+        .project-image{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            .background-image{
+                filter: brightness(30%);
+            }
+            .project-text{
+                top: 50px;
+                position: absolute;
+               text-align: center;
+               
+               span{
+                font-size: 20px;
+                text-transform: uppercase;
+                color: #009CFF;
+               }
+               h2{
+                margin-top: 15px;
+                font-size: 45px;
+                color: white;
+                font-weight: 700;
+               }
+            }
+            .project-lines{
+                position: absolute;
+                top: 160px;
+                .project-line1{
+                    
+                    height: 2px;
+                    width: 90px;
+                    background-color:#009CFF ;
+                }
+                .project-line2{
+                    margin-top: 3px;
+                    height: 2px;
+                    width: 50px;
+                    background-color:#009CFF ;
+                }
+            }
+        }
+        .project-product{
+            position: absolute;
+            top: 200px;
+            button{
+                padding: 11px 23px;
+                i{
+                    font-size: 33px;
+                    color: #009CFF;
+                }
+            }
+        }
+        .products{
+            position: absolute;
+            bottom: 150px;
+            img{
+                width: 220px;
+            }
+        }
+    }
+}

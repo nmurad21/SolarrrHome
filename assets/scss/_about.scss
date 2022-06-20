@@ -1,0 +1,41 @@
+#about{
+    margin-top: 150px;
+    .card{
+
+        border: none !important;
+        .about{
+            display: flex !important;
+            align-items: center !important;
+            img{
+                width: 100%;
+            }
+            .card-body{
+                margin-left: 15px;
+                h5{
+                    text-transform: uppercase;
+                    word-spacing: 3px;
+                    font-size: 15px;
+                    letter-spacing: -1px;
+                    color: #009CFF;
+                }
+                .card-text{
+                    font-weight: 700;
+                    font-size: 49px;
+                }
+                .card-text2{
+                    color: rgb(175, 175, 175);
+                    font-size: 18px;
+                }
+                button{
+                    border: none;
+                    color: white;
+                    background-color: #009dffad;
+                    padding: 20px 50px;
+                    &:hover{
+                        background-color: #009dff;
+                    }
+                }
+            }
+        }
+    }
+}
